@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Yaseen | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+        .section-heading {
+            @apply text-3xl md:text-4xl font-bold text-center text-indigo-900 mb-8 mt-12;
+        }
+        .card {
+            @apply bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-gray-100 transition-transform transform hover:scale-105;
+        }
+        .project-card {
+            @apply card flex flex-col items-center text-center;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- Header and Navigation -->
+    <header class="bg-gray-900 text-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold">Mohammed Yaseen</h1>
+            <ul class="flex space-x-4 mt-4 md:mt-0">
+                <li><a href="#about" class="hover:text-indigo-400 transition-colors">About</a></li>
+                <li><a href="#skills" class="hover:text-indigo-400 transition-colors">Skills</a></li>
+                <li><a href="#projects" class="hover:text-indigo-400 transition-colors">Projects</a></li>
+                <li><a href="#contact" class="hover:text-indigo-400 transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4">
+
+        <!-- About Section -->
+        <section id="about" class="min-h-screen flex items-center justify-center py-20">
+            <div class="max-w-4xl text-center">
+                <h2 class="text-5xl md:text-7xl font-bold text-white mb-4">Hello, I'm Mohammed Yaseen</h2>
+                <p class="text-xl md:text-2xl text-indigo-300">A Computer Science graduate and an aspiring Software Developer.</p>
+                <p class="mt-8 text-lg leading-relaxed max-w-2xl mx-auto">
+                    I am a recent Computer Science graduate from K.S. School of Engineering and Management. I'm currently advancing my skills through a Python Full Stack Development training at QSpiders. I am actively seeking an entry-level Software Developer position to apply my expertise in HTML, CSS, SQL, and Python while contributing to innovative development projects.
+                </p>
+                <a href="#projects" class="inline-block mt-8 bg-indigo-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-600 transition-all transform hover:scale-110">
+                    View My Projects
+                </a>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <h2 class="section-heading text-slate-50">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Core Technologies Card -->
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">Core Technologies</h3>
+                    <ul class="space-y-2 text-slate-600">
+                        <li><strong>HTML5:</strong> Semantic markup, responsive design principles</li>
+                        <li><strong>CSS3:</strong> Styling, basic responsive layouts, layout fundamentals</li>
+                        <li><strong>SQL:</strong> Database querying, data manipulation, CRUD operations</li>
+                        <li><strong>Python:</strong> Programming fundamentals, object-oriented concepts</li>
+                    </ul>
+                </div>
+                <!-- Professional Training Card -->
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">Professional Training</h3>
+                    <ul class="space-y-2 text-slate-600">
+                        <li><strong>Python Full Stack Development (QSpiders):</strong> Comprehensive training in Python, Django, HTML, CSS, JavaScript, and MySQL.</li>
+                        <li><strong>Full Stack Web Development Certificate (Varcons Technologies, 2023)</strong></li>
+                    </ul>
+                </div>
+                <!-- Core Competencies Card -->
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4">Core Competencies</h3>
+                    <ul class="space-y-2 text-slate-600">
+                        <li>Strong foundation in web development fundamentals</li>
+                        <li>Problem-solving and analytical thinking</li>
+                        <li>Quick learner with strong adaptability</li>
+                        <li>Collaborative team player</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20">
+            <h2 class="section-heading text-slate-50">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 Card -->
+                <div class="card project-card">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Web Development Projects</h3>
+                    <p class="text-slate-600 mb-4">Training Phase</p>
+                    <div class="space-y-4 text-left w-full text-slate-600">
+                        <p>Developed responsive web pages using HTML5 and CSS3, focusing on semantic markup and modern design principles.</p>
+                        <p>Created interactive user interfaces with JavaScript to enhance user experience and engagement.</p>
+                        <p>Built database-driven applications using Python and SQL for efficient data management and retrieval.</p>
+                        <p>Worked on REST API integration and data handling, demonstrating skills in client-server communication.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 Card (Placeholder) -->
+                <div class="card project-card">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Mini-Project</h3>
+                    <p class="text-slate-600 mb-4">From Python Full Stack Training</p>
+                    <div class="space-y-4 text-left w-full text-slate-600">
+                        <p>This project showcases my ability to develop and deploy a full-stack application. It integrates front-end (HTML, CSS, JavaScript) and back-end (Python, Django) technologies with a MySQL database.</p>
+                        <p><strong>Note:</strong> You can replace this section with details of a specific project, including screenshots, a live link, and a link to the code on GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <h2 class="section-heading text-slate-50">Contact Me</h2>
+            <div class="max-w-xl mx-auto text-center card">
+                <p class="text-lg text-slate-600 mb-6">I'm currently seeking an entry-level Software Developer position. Feel free to connect with me!</p>
+                <ul class="space-y-4">
+                    <li>
+                        <strong class="text-slate-800">Email:</strong> <a href="mailto:mohammedyaseen20011@gmail.com" class="text-indigo-600 hover:underline">mohammedyaseen20011@gmail.com</a>
+                    </li>
+                     <li>
+                        <strong class="text-slate-800">LinkedIn:</strong> <a href="LinkedIn:https://www.linkedin.com/in/mohammed-yaseen-18458a215" class="text-indigo-600 hover:underline">https://www.linkedin.com/in/mohammed-yaseen-18458a215</a>
+                    </li>
+                    <li>
+                        <strong class="text-slate-800">Phone:</strong> <span class="text-slate-600">+91 7204071490</span>
+                    </li>
+                    <li>
+                        <strong class="text-slate-800">Location:</strong> <span class="text-slate-600">Bangalore, Karnataka</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-gray-900 text-center py-6 mt-12">
+        <p class="text-gray-400 text-sm">© 2025 Mohammed Yaseen. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
